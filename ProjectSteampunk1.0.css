@@ -220,8 +220,21 @@ button{
     }
     .last-body p{
         padding-right: 0px;
+        font-size: 1.8125rem;
     }
     .final-layout{
         margin: 10px;
+    }
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .submit button{
+        width: 70%;
+        margin-left: 50px;
+    }
+    .skip button{
+        margin-right: 30px;
     }
 }
