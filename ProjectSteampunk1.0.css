@@ -253,3 +253,17 @@ button{
         justify-content: space-around;
     }
 }
+@media screen and (max-width:1024px){
+    .navbar{
+        display: none !important;
+    }
+    .main-body{
+        flex-direction: column;
+    }
+    .last-body p{
+        font-size: 1.75rem;
+    }
+    .body .main-page p{
+        font-size: 3rem;
+    }
+}
