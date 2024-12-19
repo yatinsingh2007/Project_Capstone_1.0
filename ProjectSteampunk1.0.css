@@ -241,9 +241,15 @@ button{
     }
     .submit button{
         width: 70%;
-        margin-left: 50px;
+        margin-left: 40px;
     }
     .skip button{
         margin-right: 30px;
+    }
+    .OTP{
+        padding-left: 40px;
+        padding-right: 35px;
+        gap:2px;
+        justify-content: space-around;
     }
 }
