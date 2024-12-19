@@ -217,7 +217,7 @@ button{
 .back-to-top button a{
     text-decoration: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 412px) {
     .navbar{
         display: none !important;
     }
@@ -242,6 +242,9 @@ button{
     .submit button{
         width: 70%;
         margin-left: 40px;
+    }
+    .submit{
+        margin-left: 60px;
     }
     .skip button{
         margin-right: 30px;
